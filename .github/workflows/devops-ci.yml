@@ -23,11 +23,12 @@ jobs:
       with:
         python-version: "3.10"
 
-    # 3. Instalar las dependencias de tu proyecto
+    # Paso 3: Instalar las dependencias de nuestro proyecto
     - name: Instalar dependencias
       run: |
-        python -m pip upgrade pip
-        pip install -r requirements.txt
+        python -m pip install --upgrade pip
+        pip install flake8
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
     # 4. Validar la sintaxis del código (Linting básico)
     # Esto revisa si hay errores de dedo, variables mal declaradas o fallas de compilación
