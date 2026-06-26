@@ -8,6 +8,9 @@ Proyecto desarrollado en Python para el monitoreo automatizado de infraestructur
 - **Arquitectura basada en eventos:** Escucha activa de comandos a través de la API de Telegram.
 - **Monitoreo de disponibilidad:** Verificación de estados HTTP (Uptime/Downtime) en tiempo real mediante requests asíncronos.
 - **Seguridad (DevOps Best Practices):** Aislamiento estricto de secretos y tokens mediante variables de entorno (`.env`).
+- **Pipeline de Integración Continua (CI):** Automatización de flujos de trabajo mediante GitHub Actions para validar cada cambio en el código en un entorno limpio de Ubuntu Linux.
+- **Calidad de Código y Linting:** Implementación de `flake8` dentro del pipeline para realizar análisis estáticos de sintaxis, garantizando que el código cumpla con los estándares profesionales antes de ser aprobado.
+- **Gestión Avanzada de Secretos (DevOps Security):** Uso de GitHub Secrets para inyectar de forma segura el token de la API en el entorno de ejecución de GitHub Actions, evitando la exposición de credenciales en el historial de Git.
 
 ## 🛠️ Tecnologías utilizadas
 - **Python 3.x**
