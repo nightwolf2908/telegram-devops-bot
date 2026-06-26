@@ -1,5 +1,7 @@
 # 🤖 Telegram Event-Driven DevOps Bot
 
+![CI Pipeline](https://github.com/nightwolf2908/telegram-devops-bot/actions/workflows/devops-ci.yml/badge.svg)
+
 Proyecto desarrollado en Python para el monitoreo automatizado de infraestructura y servicios web basado en eventos. Demuestra el consumo de APIs externas y la gestión segura de credenciales.
 
 ## 🚀 Características
